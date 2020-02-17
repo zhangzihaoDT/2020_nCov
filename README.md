@@ -260,3 +260,4 @@ module.exports = {
 -生成生产版本，并部署到Github Page
 
 @octocat :+1: 这个 PR 看起来很棒 - 可以合并了！ :shipit:
+# 2020_nCov
