@@ -73,6 +73,23 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.(csv|tsv)$/,
+        use: [
+          {
+            loader: "csv-loader",
+            options: {
+              dynamicTyping: true,
+              header: true,
+              skipEmptyLines: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.xml$/,
+        use: ["xml-loader"]
       }
     ]
   },
