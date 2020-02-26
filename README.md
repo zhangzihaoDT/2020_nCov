@@ -48,14 +48,14 @@
 
 ## 设计文档
 
-Please check out [this doc](https://www.figma.com/file/6oLZ4Swo2He0w8DUNELsUV/wuhan?node-id=268%3A28)
+Figma开源 [设计源文件追溯](https://shimo.im/docs/ne3VVlGx7Nu8FB3b)
 
 ## 本地开发
 
 ### 配置
 
 1. [安装 Node.js](https://nodejs.org/en/download/package-manager/)
-2.
+2. [安装 npm 6.1.4]
 
 ```sh
 # clone the repo
