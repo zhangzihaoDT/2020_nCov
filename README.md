@@ -1,14 +1,17 @@
 # 2020_nCov专题页项目
 本项目以时间轴形式介绍本次疫情的情况，可视化地理信息。
 
+## 项目介绍
+
+### 1、提供一个完整独立的疫情地图组件
 1. 第一阶段，爆发初期：对比非典来看（故事：因素（时间点、人口、政府行为）采取的行动（封城，口罩，医药物资））
 2. 第二阶段，超越非典：全国性爆发（广东，温州，故事（医疗援助：））
+
+### 2、提供一个完整独立的SPA应用框架模板（跳转信息）
 3. 第三阶段，返工潮：大城市压力变大
 4.总结
 - 流行病学评估疫情（包含国际蔓延情况）
 - 这场疫情中牺牲的人；反思公共医疗体系
-
-项目计划和进度：[石墨文档](https://shimo.im/docs/293DVz7jmMiLFRk4/ 《2020_nCov专题页项目制作》，可复制链接后用石墨文档 App 或小程序打开) 
 
 # 技术栈
 采用典型单页面应用（SPA）形式呈现
@@ -18,26 +21,6 @@
 - d3
 - vue-router
 - sass
-
-## 本地开发
-
-### 配置
-
-1. [安装 Node.js](https://nodejs.org/en/download/package-manager/)
-2.
-
-```sh
-# clone the repo
-git clone git@github.com:wuhan2020/map-viz.git
-
-cd map-viz
-# checkout react branch
-git checkout react
-# setup the npm env
-npm install
-# start the project
-npm start
-```
 
 ## 项目结构
 
@@ -59,7 +42,7 @@ npm start
 
 # 设计
 
-## Ant Design
+## 可视化组件库
 
 使用D3组件库进行开发，同时页面交互同步设计文档
 
@@ -67,7 +50,30 @@ npm start
 
 Please check out [this doc](https://www.figma.com/file/6oLZ4Swo2He0w8DUNELsUV/wuhan?node-id=268%3A28)
 
-# 实现路线图
+## 本地开发
+
+### 配置
+
+1. [安装 Node.js](https://nodejs.org/en/download/package-manager/)
+2.
+
+```sh
+# clone the repo
+git clone git@github.com:wuhan2020/map-viz.git
+
+cd map-viz
+# checkout react branch
+git checkout react
+# setup the npm env
+npm install
+# start the project
+npm start
+```
+
+
+### 任务拆分&参与指南
+
+项目计划和进度：[石墨文档](https://shimo.im/docs/293DVz7jmMiLFRk4/ 《2020_nCov专题页项目制作》，可复制链接后用石墨文档 App 或小程序打开) 
 
 Before Backend is fully ready/supported:
 
