@@ -1,6 +1,8 @@
 # 2020_nCov专题页项目
 本项目以时间轴形式介绍本次疫情的情况，可视化地理信息。
 
+ ![image](https://github.com/zhangzihaoDT/2020_nCov/raw/master/src/images/cat.png)
+
 ## 项目介绍
 
 ### 1、提供一个完整独立的疫情地图组件
