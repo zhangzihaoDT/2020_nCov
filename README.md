@@ -1,8 +1,6 @@
 # 2020_nCov专题页项目
 本项目以时间轴形式介绍本次疫情的情况，可视化地理信息。
 
- ![image](https://github.com/zhangzihaoDT/2020_nCov/raw/master/src/images/cat.png)
-
 ## 项目介绍
 
 ### 1、提供一个完整独立的疫情地图组件
@@ -75,6 +73,9 @@ npm start
 
 ### 任务拆分&参与指南
 
+图片插入实验
+ ![image](https://github.com/zhangzihaoDT/2020_nCov/raw/master/src/images/cat.jpg)
+
 项目计划和进度：[石墨文档](https://shimo.im/docs/293DVz7jmMiLFRk4/ 《2020_nCov专题页项目制作》，可复制链接后用石墨文档 App 或小程序打开) 
 
 Before Backend is fully ready/supported:
@@ -90,8 +91,4 @@ Before Backend is fully ready/supported:
 - [ ] Homepage
   - But we dont have that much data yet??
 
-After Back is fully ready/supported
-- [ ] Consider migrate to Rxjs - low priority
-- [ ] Update all `GET` request for the above pages
-- [ ] Support any `POST/DELETE` requests
 
